@@ -1,0 +1,129 @@
+@font-face {
+    font-family: MondayFont;
+    src: url(fonts/Mark\ Simonson\ \ Proxima\ Nova\ Condensed\ Black\ TheFontsMaster.com.otf)
+}
+.coallition
+{
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 13%;
+}
+
+.container
+{
+    width: 100%;
+    height: 100%;
+}
+
+.first
+{
+    background-color: #235A16;   
+}
+
+.second
+{
+    background-color: #cf9c23;
+}
+
+.third
+{
+    background-color: #1f7c80;
+}
+.forth
+{
+    background-color: #B74982;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: MondayFont;
+    box-sizing: border-box;
+    background-color: #1A191E;
+}
+.coallitions
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+/** END OF COALLITION **/
+
+.student
+{
+    color: #fff;
+    display: flex;
+    padding-left: 5px;
+    justify-content: space-between;
+    width: 25%;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    box-shadow: rgba(252, 252, 252, 0.05) 0px 6px 24px 0px, rgba(250, 250, 250, 0.08) 0px 0px 0px 1px;
+}
+.students
+{
+    width: 100%;
+    margin: auto;
+    padding-left: 4%;
+    margin-top: 5%;
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    justify-self: flex-start;
+    flex-wrap: wrap;
+}
+.student-info
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info 
+{
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.student-login
+{
+    font-size: 25px;
+    margin: 0;
+}
+.student-points
+{
+    margin-top: 0;
+    font-weight: 100;
+}
+
+.student img
+{
+    height: 80px;
+    width: 80px;
+    display: block;
+    border-radius: 100%;
+    display: block;
+}
+
+.student-ranking
+{
+    margin-right: 10px;
+}
+
+.student-ranking > h1
+{
+    border: 3px solid #45C387;
+    color: #45C387;
+    border-radius: 100%;
+    font-size: 30px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    padding: 10px;
+}
